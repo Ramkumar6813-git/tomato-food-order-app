@@ -1,4 +1,3 @@
-import React from "react";
 import { menu_list } from "../assets/frontend_assets/assets";
 
 const ExploreMenu = ({category, setCategory}) => {

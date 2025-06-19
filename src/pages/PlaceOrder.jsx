@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
-import StoreContext from "../context/storeContext";
+import StoreContext from "../context/StoreContext";
 
 const PlaceOrder = () => {
   const navigate = useNavigate();

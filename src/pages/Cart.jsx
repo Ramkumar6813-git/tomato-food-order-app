@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import StoreContext from "./../context/storeContext";
+import StoreContext from "./../context/StoreContext";
 import Footer from "../components/Footer";
 import { Link, useNavigate } from "react-router-dom";
 import { IoArrowBackCircleOutline } from "react-icons/io5";
