@@ -1,11 +1,12 @@
 import "../App.css";
+import { assets } from './../assets/frontend_assets/assets';
 
 const Header = () => {
   return (
     <div
       className="relative w-full h-[30vh] md:h-[52vh] rounded-lg bg-no-repeat bg-cover bg-center my-2"
       style={{
-        backgroundImage: "url('/src/assets/frontend_assets/header_img.png')",
+        backgroundImage: `url(${assets.header_img})`,
       }}
     >
       <div className="absolute inset-0 z-10 flex flex-col bg-black/15 justify-center items-start px-6 md:px-12 lg:px-20 space-y-3 md:space-y-5">
