@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+/* to hide scrollbar  */
+.scrollbar-hide::-webkit-scrollbar{
+  display: none;
+}
